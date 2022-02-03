@@ -9,6 +9,8 @@ Dicee - section 12: boss level challange 1
 
 The Simon Game - section 15: boss level challenge 2
 
+Newsletter Signup - section 20: APIs
+
 Blog Website - section 23: boss level challenge 3
 
 codeWiki-API - section 31: building RESTful API from scratch
