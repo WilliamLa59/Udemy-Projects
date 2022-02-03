@@ -7,6 +7,8 @@ Tindog - section 6: intro to bootstrap 4
 
 Dicee - section 12: boss level challange 1
 
+Drum Kit - section 13: advanced javascript and DOM manipulation
+
 The Simon Game - section 15: boss level challenge 2
 
 Newsletter Signup - section 20: APIs
