@@ -18,7 +18,7 @@ app.get("/", function (req, res) {
 });
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "90df7f246bf5719bee9951e66ba061fd-us20",
+    apiKey: "//API KEY HERE",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
     server: "us20"
 });
@@ -29,7 +29,7 @@ app.post("/", function (req, res){
     const lastName = req.body.lName;
     const email = req.body.email;
 
-    const listId = "521c4e8e49";
+    const listId = "//AUDIENCE ID HERE";
 
     const subscribingUser = {
         firstName: firstName,
@@ -64,9 +64,3 @@ app.post("/", function (req, res){
 app.post("/failure", function(req,res){
     res.redirect("/");
 })
-
-// API-key
-// 90df7f246bf5719bee9951e66ba061fd-us20
-
-// audience-ID
-// 521c4e8e49
